@@ -1,0 +1,27 @@
+﻿
+@model IEnumerable<MySiteMVC4.Models.Review>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    
+<hr>
+      @foreach (MySiteMVC4.Models.Review b in Model)
+{
+    ViewBag.ID = b.Id;
+    <p class="cont">@b.Name</p>
+        <p class="cont">@b.Text</p>
+        <hr>
+      } 
+      @if (ViewBag.ID == 0) 
+      {
+            <span class="mtx">На жаль відгуки про нашу роботу поки відсутні...</span>
+        <hr>  
+      }  
+<form method="post" action="">
+    <input type="hidden" value="@(ViewBag.ID + 1)" name="Id" />
+    <input type="text" name="Name" placeholder=" Введіть ім'я: " />
+    <br />
+    <textarea name="text" placeholder=" Ваш коментар: " cols="90" rows="3"></textarea>
+    <input type="submit" value="Відправити" />
+</form>   
+       

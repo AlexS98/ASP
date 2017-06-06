@@ -1,0 +1,41 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<span class="cont">Природа України – багата та різноманітна. Завдяки географічному положенню та кліматичним умовам у нас є просторі степи й густі ліси, лагідні моря й величні гори, бурхливі річки та спокійні озера, на просторах країни ростуть тисячі видів рослин та водиться величезна кількість тварин. Змінюються пори року – і кожна з них дарує нам свою особливу красу.</span>
+<div class="slider" align ="center" >
+    <ul>
+        <li><img src="/content/images/im1.jpg" alt=""></li>
+        <li><img src="/content/images/im2.jpg" alt=""></li>
+    </ul>
+</div>
+<script type="text/javascript" align="center">
+    $(document).ready(function () {
+        $(".slider").each(function () { // обрабатываем каждый слайдер
+            var obj = $(this);
+            $(obj).append("<div class='nav'></div>");
+            $(obj).find("li").each(function () {
+                $(obj).find(".nav").append("<span rel='" + $(this).index() + "'></span>"); // добавляем блок навигации
+                $(this).addClass("slider" + $(this).index());
+            });
+            $(obj).find("span").first().addClass("on"); // делаем активным первый элемент меню
+        });
+    });
+    function sliderJS(obj, sl) { // slider function
+        var ul = $(sl).find("ul"); // находим блок
+        var bl = $(sl).find("li.slider" + obj); // находим любой из элементов блока
+        var step = $(bl).width(); // ширина объекта
+        $(ul).animate({ marginLeft: "-" + step * obj }, 500); // 500 скорость
+    }
+    $(document).on("click", ".slider .nav span", function () { // slider click navigate
+        var sl = $(this).closest(".slider"); // находим, в каком блоке был клик
+        $(sl).find("span").removeClass("on"); // убираем активный элемент
+        $(this).addClass("on"); // делаем активным текущий
+        var obj = $(this).attr("rel"); // узнаем его номер
+        sliderJS(obj, sl); // слайдим
+        return false;
+    });
+</script> 
+            <span class="cont">Схили вкриті свіжою зеленою травою та квітами, а внизу плескається Чорне море – зовсім не чорного, а блакитно-бірюзового кольору. Силуети далеких гір, ніби намальовані аквареллю, здаються, пливуть у морі. Десь серед хребтів причаїлися стрімкі водоспади, проте вони невеличкі та майже повністю пересихають улітку. Поруч із ними завжди свіже та прохолодне повітря, а вода така прозора, що видно кожен дрібний камінь на дні.</span>
+            <span class="cont">Природа України радує око.</span>
+            <span class="cont">Ми пропонуємо дослідити незнані та мольовничі куточки України разом з нами. Приєднуйтесь!</span>

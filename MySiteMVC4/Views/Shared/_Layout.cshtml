@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Туроператор "Грин-ТУР"</title>
+    <link rel="stylesheet" type="text/css" href="/content/style.css" />
+    <link rel="stylesheet" type="text/css" href="/content/animate.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="/content/wow.min.js"></script>
+    <script>
+         new WOW().init();
+    </script>
+</head>
+
+<body>
+<div class="container-fluid" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 wow fadeInRight" id="header">
+                <div>
+                    <img src="/content/images/v1.png" align="left" />
+                    <img src="/content/images/karpat.jpg" align="right" />
+                    <br><br>
+                    <p id="hp1" align="center">туристична фірма</p>
+                    <p id="hp2" align="center">ПП "ГРИН-ТУР"</p>
+                </div>
+            </div>
+        <div class="row">
+        <div class="col-md-12" style="margin-top: 30px">
+        <div id="menu" class="col-md-3 wow fadeInLeft">
+            <div class="men "><a href="/Home/Index" style="text-decoration: none;"><span class="mtx">Головна </span></a></div>
+            <div class="men"><a href="/Home/Karp" style="text-decoration: none;"><span class="mtx">Тури в Карпати </span></a></div>
+            <div class="men"><a href="/Home/Ukr" style="text-decoration: none;"><span class="mtx">Тури по Україні </span></a></div>
+            <div class="men"><a href="/Home/About" style="text-decoration: none;"><span class="mtx">Про нас </span></a></div>
+            <div class="men"><a href="/Home/Vidguk" style="text-decoration: none;"><span class="mtx">Відгуки </span></a></div>
+        </div>
+        <div class="col-md-1"></div>
+        <div id="content" class="col-md-8 wow fadeInUp" style="margin-left: 80px;">
+            @RenderBody()
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+

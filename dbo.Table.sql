@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Vidguk]
+(
+	[Name] NVARCHAR(50) NOT NULL, 
+    [Body] NVARCHAR(250) NOT NULL, 
+    [Time] DATETIME2 NOT NULL
+)

@@ -1,0 +1,117 @@
+﻿body {    
+background-image: url("/Content/images/priroda.jpg");
+}
+#hp1{
+	font-variant: small-caps;
+	color: ivory;
+	font-weight: bold;
+	font-size: 28pt;
+}
+#hp2{
+	font-variant: small-caps;
+	color: ivory;
+	font-weight: bold;
+	font-size: 32pt;
+}
+#main{
+	width:1600px;
+	height:950px;
+	margin: auto;
+}
+#header{
+	background:rgb(90, 189, 74);
+	width:1150px;
+	height:270px;
+	border-radius: 15px 15px 15px 15px;
+	padding: 10px;
+    border: solid 3px black; 
+}
+#menu{
+	background:rgb(90, 189, 74);
+	border-radius: 15px 15px 15px 15px;
+	padding: 10px;
+	height:390px;
+    border: solid 3px black; 
+}
+#content{
+	background:rgb(90, 189, 74);
+	border-radius: 15px 15px 15px 15px;
+	height:650px;
+	box-sizing: border-box;
+    padding: 20px;
+    border: solid 3px black; 
+}
+#footer{
+	background:darkred;
+	width:1000px;
+	height:60px;
+	float: right;
+}
+.men{
+	background:green;
+	width:230px;
+	height:60px;
+	border-radius: 20px 20px 20px 20px;
+	margin: 12px;
+    border: solid 3px black;
+	text-align: center; 
+    line-height: 4em;
+}
+.mtx{
+	font-variant: small-caps;
+	color: gold;
+	font-weight: bold;
+	font-size: 20pt;
+}
+.cont{
+	font-variant: small-caps;
+	text-align: justify;
+	font-weight: bold;
+	font-size: 14pt;		
+}  
+.slider {
+ min-width: 100%;
+ z-index: 9;
+ min-width: 100%;
+ height: 290px;
+ overflow: hidden;
+ margin: 0 0 7px;
+ position: relative;
+ margin: auto;
+ }
+ .slider ul,
+ .slider li {
+ padding: 0;
+ margin: 0;
+ list-style-type: none;
+ }
+ .slider ul {
+ width: 9999px; 
+ }
+ .slider ul li {
+ list-style-type: none;
+ float: left;
+ width: 700px;
+ height: 200px;
+ }
+ .slider .nav {
+ position: absolute;
+ left: 15px;
+ bottom: 12px; 
+ }
+ .slider .nav span {
+ opacity: 0.9;
+ background: #fff;
+ margin: 0 8px 0 0;
+ width: 16px;
+ height: 16px;
+ border-radius: 8px;
+ cursor: pointer;
+ overflow: hidden;
+ display: block;
+ float: left;
+ box-shadow: 0 1px 2px #000;
+ }
+ .slider .nav span.on {
+ background: #2e9419;
+ }

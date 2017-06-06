@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Туроператор "Грин-ТУР"</title>
+    <link rel="stylesheet" type="text/css" href="/content/style.css" />
+    <link rel="stylesheet" type="text/css" href="/content/animate.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="/content/wow.min.js"></script>
+</head>
+
+<body>
+    <script>
+        new WOW().init();
+    </script>
+    <div id="main" class="wow">
+        <div id=" header" class="fadeInRight">
+            <img src="/content/images/v1.png" align="left" />
+            <img src="/content/images/karpat.jpg" align="right" />
+            <br>
+            <p id="hp1" align="center">туристична фірма</p>
+            <p id="hp2" align="center">ПП "ГРИН-ТУР"</p>
+        </div>
+        <div id="menu" class="fadeInLeft">
+            <div class="men"><a href="/Home/Index" style="text-decoration: none;"><span class="mtx">Головна </span></a></div>
+            <div class="men"><a href="/Home/Karp" style="text-decoration: none;"><span class="mtx">Тури в Карпати </span></a></div>
+            <div class="men"><a href="/Home/Ukr" style="text-decoration: none;"><span class="mtx">Тури по Україні </span></a></div>
+            <div class="men"><a href="/Home/About" style="text-decoration: none;"><span class="mtx">Про нас </span></a></div>
+            <div class="men"><a href="/Home/Vidguk" style="text-decoration: none;"><span class="mtx">Відгуки </span></a></div>
+        </div>
+        <div id="content" class="fadeInUp">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>
+
