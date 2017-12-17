@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySiteMVC4", "MySiteMVC4\MySiteMVC4.csproj", "{783E371D-06E1-4A69-B6AC-9DB91A780ED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySiteMVC4Tests", "MySiteMVC4Tests\MySiteMVC4Tests.csproj", "{AF3FB306-B95F-4812-9CF8-1ED5ABE9FDE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{783E371D-06E1-4A69-B6AC-9DB91A780ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{783E371D-06E1-4A69-B6AC-9DB91A780ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{783E371D-06E1-4A69-B6AC-9DB91A780ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF3FB306-B95F-4812-9CF8-1ED5ABE9FDE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3FB306-B95F-4812-9CF8-1ED5ABE9FDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3FB306-B95F-4812-9CF8-1ED5ABE9FDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3FB306-B95F-4812-9CF8-1ED5ABE9FDE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D2F43D4-B3E8-4898-B31F-B54D5CE6CD43}
 	EndGlobalSection
 EndGlobal
