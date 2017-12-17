@@ -1,9 +1,5 @@
 ﻿using MySiteMVC4.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading;
-using System.Web;
 using System.Web.Mvc;
 
 namespace MySiteMVC4.Controllers
@@ -46,7 +42,6 @@ namespace MySiteMVC4.Controllers
             ViewBag.ID = 0;
             db.Reviews.Add(review);
             db.SaveChanges();
-            Thread.Sleep(150);
             return View("Success");
         }
     }

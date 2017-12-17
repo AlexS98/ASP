@@ -9,4 +9,10 @@ build:
 
 test:
   assemblies:
-    MySiteMVC4Tests.dll
+    Tests.dll
+
+build_script:
+ - msbuild /verbosity:quiet "GreenTour"
+test_script:
+ - .\packages\OpenCover.4.6.519\tools\OpenCover.Console.exe -register:user -target:"%xunit20%\xunit.console.x86.exe" -targetargs:".\Tests\bin\Debug\tests.dll -noshadow" -filter:"+[MySiteMVC4*]* -[Tests*]*" -output:".\coverage.xml"
+ - .\packages\OpenCover.4.6.519\tools\codecov.exe -f "coverage.xml"

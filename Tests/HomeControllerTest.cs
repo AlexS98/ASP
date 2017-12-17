@@ -1,10 +1,11 @@
-﻿using System.Web.Mvc;
+﻿using MySiteMVC4.Controllers;
+using System.Web.Mvc;
 using Xunit;
 
-namespace MySiteMVC4.Controllers.Tests
+namespace MySiteMVC4.Tests
 {
-    public class HomeControllerTests
-    {        
+    public class HomeControllerTest
+    {
         [Fact]
         public void IndexTest()
         {

@@ -248,5 +248,3 @@ paket-files/
 
 # FAKE - F# Make
 .fake/
-
-notes.dat

@@ -132,3 +132,14 @@ D:\Projects\New\С#\Green_tour\MySiteMVC4\obj\Debug\MySiteMVC4.csprojResolveAsse
 D:\Projects\New\С#\Green_tour\MySiteMVC4\obj\Debug\MySiteMVC4.csproj.CoreCompileInputs.cache
 D:\Projects\New\С#\Green_tour\MySiteMVC4\obj\Debug\MySiteMVC4.dll
 D:\Projects\New\С#\Green_tour\MySiteMVC4\obj\Debug\MySiteMVC4.pdb
+D:\Projects\New\С#\Green_tour\MySiteMVC4\bin\xunit.runner.visualstudio.testadapter.dll
+D:\Projects\New\С#\Green_tour\MySiteMVC4\bin\xunit.runner.reporters.net452.dll
+D:\Projects\New\С#\Green_tour\MySiteMVC4\bin\xunit.runner.utility.net452.dll
+D:\Projects\New\С#\Green_tour\MySiteMVC4\bin\xunit.abstractions.dll
+D:\Projects\New\С#\Green_tour\MySiteMVC4\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Projects\New\С#\Green_tour\MySiteMVC4\bin\xunit.assert.dll
+D:\Projects\New\С#\Green_tour\MySiteMVC4\bin\xunit.core.dll
+D:\Projects\New\С#\Green_tour\MySiteMVC4\bin\xunit.execution.dotnet.dll
+D:\Projects\New\С#\Green_tour\MySiteMVC4\bin\xunit.assert.xml
+D:\Projects\New\С#\Green_tour\MySiteMVC4\bin\xunit.core.xml
+D:\Projects\New\С#\Green_tour\MySiteMVC4\bin\xunit.execution.dotnet.xml
